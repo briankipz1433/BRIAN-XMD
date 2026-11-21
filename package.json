@@ -1,18 +1,13 @@
 {
   "name": "brian-xmd",
-  "version": "1.0.0",
-  "private": true,
-  "description": "BRIAN XMD WhatsApp bot",
+  "version": "2.0.0",
+  "description": "BRIAN XMD - BEST Public Bot",
   "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
-  "engines": {
-    "node": ">=20"
-  },
+  "scripts": { "start": "node index.js" },
+  "engines": { "node": ">=18.0.0" },
   "dependencies": {
-    "@whiskeysockets/baileys": "^6.7.18",
-    "express": "^4.21.2",
-    "pino": "^9.6.0"
+    "@whiskeysockets/baileys": "^6.7.0",
+    "express": "^4.19.2",
+    "pino": "^9.0.0"
   }
 }
